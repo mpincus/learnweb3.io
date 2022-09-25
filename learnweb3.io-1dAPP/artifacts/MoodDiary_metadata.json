@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getMood",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_mood",
+						"type": "string"
+					}
+				],
+				"name": "setMood",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"learnweb3.io-1dAPP\\mood.sol": "MoodDiary"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"learnweb3.io-1dAPP\\mood.sol": {
+			"keccak256": "0x10a6d62522b36f2d79af06aa4e6dbb86035942f967bc4e3ec8295bde484d585a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5984f2b894a2bb7a5b23831e4965a6b59c0184d86f54f29fccc5464fd8cf116d",
+				"dweb:/ipfs/QmYjXkxYw7fwUJMHn1KSiLcJF2ZQgfyvAusZeADkZ85NC6"
+			]
+		}
+	},
+	"version": 1
+}
